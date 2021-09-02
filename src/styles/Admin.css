@@ -1,0 +1,15 @@
+textarea,
+input {
+  padding: 7px;
+  resize: none;
+}
+
+textarea:focus-visible,
+input:focus-visible {
+  outline: none;
+}
+
+.display {
+  width: 85%;
+  word-wrap: break-word;
+}

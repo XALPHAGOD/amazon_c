@@ -1,0 +1,30 @@
+.home {
+  padding: 0 10px;
+  background-color: #eaeded;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home_img {
+  width: 100%;
+  min-height: 100%;
+  margin-bottom: -350px;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.home .container {
+  min-width: 100%;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.home .row {
+  margin: 0;
+  margin-bottom: 20px;
+  justify-content: space-evenly;
+}
+
+#home_carousel .carousel-inner {
+  overflow: visible;
+}

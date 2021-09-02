@@ -1,0 +1,19 @@
+.accessory_card {
+  padding: 30px;
+  border-radius: 7px;
+  transition: all ease-in-out 500ms;
+}
+
+.accessory_card:hover {
+  box-shadow: 0 0 50px #fcf3e7 inset;
+}
+
+.accessory_cart_add {
+  width: 100%;
+  padding: 2px;
+  background-color: #ffe714;
+  box-shadow: 1px 1px 7px #eebb39 inset;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}

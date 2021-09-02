@@ -1,0 +1,63 @@
+.card {
+  width: 350px;
+  height: 420px;
+  padding: 20px;
+  margin: 0 0 20px 0;
+  border: none;
+  border-radius: 0;
+  background-color: white;
+  z-index: 1;
+  transition: all 200ms ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgb(128, 128, 128);
+  transform: scale(1.02);
+}
+
+.card_title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.card_img {
+  width: 310px;
+  height: 310px;
+  margin: 10px 0px;
+  object-fit: cover;
+}
+
+.minicard_row {
+  display: flex;
+}
+
+.minicard {
+  height: 150px;
+  background-color: #f2fafb;
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.minicard_img {
+  width: 150px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.minicard_text {
+  font-size: small;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card a {
+  color: #007185;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+}

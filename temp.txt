@@ -1,0 +1,5 @@
+laptops
+mobiles
+accessories
+clothings
+electronics

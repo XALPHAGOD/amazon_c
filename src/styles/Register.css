@@ -1,0 +1,26 @@
+.register {
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.register_form {
+  width: 22.5%;
+  background-color: #f4f4f4;
+  padding: 10px 20px;
+  border: 1px solid lightgray;
+  box-shadow: 0 0 10px #dddddd;
+  border-radius: 4px;
+}
+
+#register_input:focus {
+  border: 1px solid #e77600 !important;
+  box-shadow: 0 0 6px #e77600;
+}
+
+#register_password:focus {
+  border: 1px solid #e77600 !important;
+  box-shadow: 0 0 6px #e77600;
+}
+
+/* border e77600
+box s f4caa1 */
